@@ -29,7 +29,7 @@ st.title('Mashup:notes:	:musical_score::musical_note:')
 st.write('Made by Ekam bhele')
 name=st.text_input("Singer Name")
 n=int(st.number_input("No. of videos",step=1))
-duration=int(st.number_input("Duration",step=1))
+duration=int(st.number_input("Duration(in seconds)",step=1))
 
 Email=st.text_input("Email id")
 if st.button('Submit'):
